@@ -5,7 +5,6 @@ def q11(vetor_a: tuple, vetor_b: tuple, opcao: int)-> np.array:
         vetor_a = np.array(vetor_a)
         vetor_b = np.array(vetor_b)
 
-        # Verifica se os vetores têm o mesmo tamanho
         if len(vetor_a) != len(vetor_b):
             print("Erro: Os vetores devem ter o mesmo tamanho!")
             return
